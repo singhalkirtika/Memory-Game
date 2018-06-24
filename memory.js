@@ -144,8 +144,8 @@ function memoryFlipTile(tile, name, id, image){
 
     else{
       function flipBack(){
-        document.getElementById(memory_tile_ids[0]).style.backgroundImage =  'url("E://Web//Applications//Memory Game//black2.jpg")' ;
-        document.getElementById(memory_tile_ids[1]).style.backgroundImage =  'url("E://Web//Applications//Memory Game//black2.jpg")' ;
+        document.getElementById(memory_tile_ids[0]).style.backgroundImage =  'url("images//black2.jpg")' ;
+        document.getElementById(memory_tile_ids[1]).style.backgroundImage =  'url("images//black2.jpg")' ;
         document.getElementById(memory_tile_ids[0]).className = 'another';
         document.getElementById(memory_tile_ids[1]).className = 'another';
         memory_values = [];
