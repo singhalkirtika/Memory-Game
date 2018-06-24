@@ -1,0 +1,114 @@
+.container{
+width:100%;
+height:100%;
+position: relative;
+}
+
+.memory_board{
+  width: 760px;
+  height: 500px;
+  border: #999 1px solid;
+  padding: 24px;
+  margin: 0px auto;
+  padding: 24px;
+  border-radius: 20px;
+  position: absolute;
+  top:100px;
+  left: 20%;
+}
+
+.another{
+  background: #20B2AA	;
+  background-size: cover;
+  box-shadow: 5px 5px 20px #708090;
+}
+
+.memory_board > button{
+  background-image: url("E://Web//Applications//Memory Game//black2.jpg");
+  border: #000000 1px solid;
+  width: 18%;
+  height: 16%;
+  float: left;
+  margin: 24px;
+  cursor: pointer;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+@keyframes flip{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes soon{
+0%{
+  transform: scale(1);
+}
+50%{
+  transform: scale(1.3);
+}
+100%{
+  transform: scale(1);
+}
+}
+
+.clN{
+  /* delaying soon animation by 0.3s and running it for 0.4s */
+  animation: flip ease-in-out 0.3s, soon 0.4s 0.3s;
+  backface-visibility: hidden;
+}
+
+.moves{
+  width: 150px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+}
+
+.timer{
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 20px;
+  top:100px;
+  position: absolute;
+}
+.write{
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.congrats{
+  position: absolute;
+  top: 200px;
+  left: 35%;
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+  z-index: 10;
+  width: 400px;
+  height: 200px;
+  visibility: hidden;
+  background-color: #FFA500;
+}
+
+.congrats > div{
+  text-align: center;
+  display: block;
+  margin: 50px;
+}
+
+.congrats button{
+  width: 100px;
+  height: 50px;
+  background-color: #A9A9A9;
+  top:-50px;
+}
