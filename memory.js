@@ -2,42 +2,42 @@ var cards = [
   {
     name: 'tweety',
     id : 1,
-    img: 'E://Web//Applications//Memory Game//tweety.jpg'
+    img: 'images//tweety.jpg'
   },
   {
     name: 'doraemon',
     id : 2,
-    img: 'E://Web//Applications//Memory Game//doraemon.jpg'
+    img: 'images//doraemon.jpg'
   },
   {
     name: 'popeye',
     id : 3,
-    img: 'E://Web//Applications//Memory Game//popeye.jpg'
+    img: 'images//popeye.jpg'
   },
   {
     name: 'pooh',
     id : 4,
-    img: 'E://Web//Applications//Memory Game//pooh.jpg'
+    img: 'images//pooh.jpg'
   },
   {
     name: 'noody',
     id : 5,
-    img: 'E://Web//Applications//Memory Game//noody.jpg'
+    img: 'images//noody.jpg'
   },
   {
     name: 'micky',
     id : 6,
-    img: 'E://Web//Applications//Memory Game//micky.jpg'
+    img: 'images//micky.jpg'
   },
   {
     name: 'donald',
     id : 7,
-    img: 'E://Web//Applications//Memory Game//donald.jpg'
+    img: 'images//donald.jpg'
   },
   {
     name: 'tom',
     id : 8,
-    img: 'E://Web//Applications//Memory Game//tom.jpg'
+    img: 'images//tom.jpg'
   }
 ];
 
